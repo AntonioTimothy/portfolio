@@ -9,11 +9,9 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="theme-text" style={{ color: props.theme.secondaryText }}>
-          Toggle Theme
+          Day/Night
         </p>
-        <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          <a href="https://github.com/Tasin5541/portfolio">Get The Template</a>
-        </p>
+
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
       </Fade>
     </div>

@@ -13,34 +13,33 @@ const greeting = {
   subTitle:
     "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
   resumeLink:
-    "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
+    "https://drive.google.com/file/d/1GiOi-lHQAuRnY2JdnwyqNJEJIeb1kwgT/view?usp=sharing",
   portfolio_repository: "https://github.com/AntonioTimothy",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Tasin5541",
+    link: "https://github.com/AntonioTimothy",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
-  {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/miftaul-mannan-tasin-566543107/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
+  // {
+  //   name: "LinkedIn",
+  //   link: "https://www.linkedin.com/in/miftaul-mannan-tasin-566543107/",
+  //   fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+  //   backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  // },
   {
     name: "YouTube",
-    link:
-      "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
+    link: "https://www.youtube.com/channel/UCJ52BTxlk_1zI42bRC8SAMA",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
     link:
-      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinmiftaulmannan@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
+      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=greenlightkibe@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -54,13 +53,13 @@ const socialMediaLinks = [
   */
   {
     name: "Facebook",
-    link: "https://www.facebook.com/tasinmiftaulmannan",
+    link: "https://web.facebook.com/timothy.kibe.90",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/mm_tasin/",
+    link: "https://www.instagram.com/timothy_kibe_",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -68,46 +67,6 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -251,6 +210,7 @@ const skills = {
         },
       ],
     },
+
     {
       title: "UI/UX Design",
       fileName: "DesignImg",
@@ -290,6 +250,46 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Data Science & AI",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "⚡ Experience of working with Computer Vision and NLP projects",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
+    },
   ],
 };
 
@@ -298,11 +298,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%",
+      progressPercentage: "950%",
     },
     {
       Stack: "Programming",
@@ -329,7 +329,7 @@ const sLanguage = {
     },
     {
       Stack: "JavaScript/TypeScript",
-      progressPercentage: "65%",
+      progressPercentage: "90%",
     },
     {
       Stack: "Angular",
@@ -337,11 +337,11 @@ const sLanguage = {
     },
     {
       Stack: "React",
-      progressPercentage: "60%",
+      progressPercentage: "90%",
     },
     {
       Stack: "SQL/PLSQL",
-      progressPercentage: "80%",
+      progressPercentage: "90%",
     },
     {
       Stack: "HTML", //Insert stack or technology you have experience in
@@ -352,8 +352,8 @@ const sLanguage = {
       progressPercentage: "80%",
     },
     {
-      Stack: "Bootstrap",
-      progressPercentage: "80%",
+      Stack: "Node.js",
+      progressPercentage: "90%",
     },
     {
       Stack: "PHP",
@@ -361,7 +361,7 @@ const sLanguage = {
     },
     {
       Stack: ".Net Core",
-      progressPercentage: "65%",
+      progressPercentage: "90%",
     },
   ],
 };
