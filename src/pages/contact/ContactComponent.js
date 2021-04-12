@@ -25,10 +25,7 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
-                <img
-                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
-                />
+                <img src={require(`../../assests/images/tim.png`)} alt="" />
               </div>
               <div className="contact-heading-text-div">
                 <h1
@@ -70,8 +67,9 @@ class Contact extends Component {
                 <div className="blogsite-btn-div">
                   <Button
                     text="Visit My Blogsite"
+                    disabled
                     newTab={true}
-                    href={blogSection.link}
+                    // href={blogSection.link}
                     theme={theme}
                   />
                 </div>
@@ -119,14 +117,14 @@ class Contact extends Component {
                 >
                   {phoneSection["subtitle"]}
                 </p>
-                <div className="address-btn-div">
+                {/* <div className="address-btn-div">
                   <Button
                     text="Visit on Google Maps"
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>

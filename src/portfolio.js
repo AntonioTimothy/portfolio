@@ -783,13 +783,13 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Banani, Dhaka-1212, Bangladesh",
+    subtitle: "Nairobi Kenya",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/yV1Vkp7L3to9qvKX6",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+880 1953699363",
+    subtitle: "+254726862144",
   },
 };
 
